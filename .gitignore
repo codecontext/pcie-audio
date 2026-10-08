@@ -1,0 +1,32 @@
+# Zephyr and CMake Build Outputs
+build/
+bin/
+*.elf
+*.bin
+*.hex
+*.stat
+*.dts
+*.dts.pre
+
+# Ninja / Object Files
+*.o
+*.obj
+.ninja_*
+ninja.log
+compile_commands.json
+
+# IDEs & System Files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Python Visualizer Temp Files
+__pycache__/
+*.pyc
+.venv/
+.env/
+
+# Shared Memory temporary mount files
+ivshmem_audio_buffer
